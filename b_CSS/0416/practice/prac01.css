@@ -1,0 +1,17 @@
+body {
+  background: url(../../../images/dog.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background: url(../../../images/parrot.jpg) no-repeat fixed;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 320px) {
+  body {
+    background: url(../../../images/dog.jpg) no-repeat fixed;
+    background-size: cover;
+  }
+}

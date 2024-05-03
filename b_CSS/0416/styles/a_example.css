@@ -1,0 +1,48 @@
+p{
+  font-size: 12px;
+}
+
+@media (min-width: 640px){
+  p{
+    font-size: 14px;
+    color: blue;
+  }
+}
+
+@media (min-width: 768px){
+  p{
+    font-size: 16px;
+    color: purple;
+  }
+}
+
+@media (min-width: 1024px){
+  p{
+    font-size: 18px;
+    color: red;
+  }
+}
+
+
+/*  */
+
+h1{
+  background-color: lightblue;
+}
+
+@media (max-width: 1023px) {
+  h1 {
+    background-color: lightcoral;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    background-color: lightgreen;
+  }
+}
+@media (max-width: 639px) {
+  h1 {
+    background-color: lightgray;
+  }
+}
+

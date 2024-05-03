@@ -1,0 +1,25 @@
+
+
+p {
+  font-size: 40px;
+}
+
+@media (max-width: 600px) {
+  p {
+    font-size: 20px;
+  }
+}
+
+/* 모든 디바이스 & 최소 너비가 768이상 &최대 너비가 1080px 이하 */
+
+@media all and (min-width:768px) and (max-width:1080px){
+  h1 {
+color: red;
+  }
+}
+
+@media (min-height:680px), screen and (orietation: portrait) {
+  h1{
+    background-color: blue;
+  }
+}

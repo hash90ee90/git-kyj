@@ -1,0 +1,35 @@
+/* ? 하위(자손) 선택자 */
+/* ? 모든 p 요소에 스타일 적용 */
+div p {
+  color: red;
+}
+
+
+/* 자식 선택자
+ Paragraph 1 에만 적용
+*/
+div > p {
+  color: blue;
+}
+
+
+/* 인접 형제 선택자
+적용되는 요소 X */
+p + p {
+  color: green;
+} 
+
+
+/* 일반 형제 선택자
+적용되는 요소 X
+: 같은 부모를 가지면서 div요소 다음에 나오는 모든 요소에 적용
+*/
+div ~ p { 
+  color: yellow;
+}
+
+/* 인접 형제 선택자 Item 2에만 스타일 적용 */
+.list-item + .highlight { color: purple; }
+
+/* 일반 형제 선택자 Item2, Item3 에 동일한 스타일이 적용 */
+ul li ~ .highlight { background-color: lightblue; }

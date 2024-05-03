@@ -1,0 +1,29 @@
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: navy;
+}
+
+.custom-list {
+  list-style: square;
+}
+
+.data-table {
+  border-collapse:collapse
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.fancy-border {
+  border: 2px dashed red;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+}
